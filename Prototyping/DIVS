@@ -1,71 +1,61 @@
-//DIVS
-/* Steps for Scafolding a Program while learning code
+// DIVS
+/* Steps for Scaffolding a Program while learning code
  rect(nameX, nameY, nameWidth, nameHeight);
  Copy, Paste & Rename
  */
- int appWidth = displayWidth;
- intappHeight = displayHeight;
- //
- int paperWidth = ;
- int paperHeight = ;
- //
- 
-float imageX = appWidth * ??? / paperWidth;
-float imageY = appHeight * ??? / paperHeight;
-float imageWidth = appWidth * ??? / paperWidth;
-float  imageHeight appHeight * ??? / paperHeight;
-rect(imageX, imageY, imageWidth, imageHeight);
-//
-rect(imageX ,imageY, imageWidth, imageHeight;
-//
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
-rect(nameX, nameY, nameWidth, nameHeight);
 
+// App dimensions
+int appWidth = displayWidth;
+int appHeight = displayHeight;
+
+// Paper dimensions
+int paperWidth = 165;
+int paperHeight = 122;
+//
+fullScreen();
+print(displayWidth, displayHeight);
+
+
+// Image variables
+float ShuffleBox1X = appWidth * 23 / paperWidth;
+float ShuffleBox1Y = appHeight * 0 / paperHeight;
+float ShuffleBox1Width = appWidth * 15 / paperWidth;
+float ShuffleBox1Height = appHeight * 11 / paperHeight;
+float SongListText2X = appWidth * 0 /paperWidth;
+float SongListText2Y = appHeight * 0 /paperHeight;
+float SongListText2Width = appWidth * 23 / paperWidth;
+float SongListText2Height = appHeight * 10 / paperHeight;
+float ListedSongOne3X = appWidth * 0 / paperWidth;
+float ListedSongOne3Y = appHeight * 12 / paperHeight;
+float ListedSongOne3Width = appWidth * 23 / paperWidth;
+float ListedSongOne3Height = appHeight * 07 / paperHeight;
+float ListedSongTwo4X = appWidth * 0 / paperWidth;
+float ListedSongTwo4Y = appHeight * 19 / paperHeight;
+float ListedSongTwo4Width = appWidth * 23 / paperWidth;
+float ListedSongTwo4Height = appHeight * 10 / paperHeight;
+float ListedSongThree5X = appWidth * 0 / paperWidth;
+float ListedSongThree5Y = appHeight * 27 / paperHeight;
+float ListedSongThree5Width = appWidth * 23 / paperWidth;
+float ListedSongThree5Height = appHeight * 10 / paperHeight;
+float ListedSongFour6X = appWidth * 0 / paperWidth;
+float ListedSongFour6Y = appHeight * 37 / paperHeight;
+float ListedSongFour6Width = appWidth * 24 / paperWidth;
+float ListedSongFour6Height = appHeight * 10 / paperHeight;
+float ListedSongFive7X = appWidth * 0 / paperWidth;
+float ListedSongFive7Y = appHeight * 45 /paperHeight;
+float ListedSongFive7Width = appWidth * 24 / paperWidth;
+float ListedSongFive7Height = appHeight * 10 / paperHeight;
+float ListedSongSix8X = appWidth * 0 / paperWidth;
+float ListedSongSix8Y = appHeight * 55 / paperHeight;
+float ListedSongSix8Width = appWidth * 24 / paperWidth;
+float ListedSongSix8Height = appHeight * 10 / paperHeight;
+float PlaylistSection15X = appWidth * 0 / paperWidth;
+//
+rect(ShuffleBox1X, ShuffleBox1Y, ShuffleBox1Width, ShuffleBox1Height);
+rect(SongListText2X, SongListText2Y, SongListText2Width, SongListText2Height);
+rect(ListedSongOne3X, ListedSongOne3Y, ListedSongOne3Width, ListedSongOne3Height);
+rect(ListedSongTwo4X, ListedSongTwo4Y, ListedSongTwo4Width, ListedSongTwo4Height);
+rect(ListedSongThree5X, ListedSongThree5Y, ListedSongThree5Width, ListedSongThree5Height);
+rect(ListedSongFour6X, ListedSongFour6Y, ListedSongFour6Width, ListedSongFour6Height);
+rect(ListedSongFive7X, ListedSongFive7Y, ListedSongFive7Width, ListedSongFive7Height);
+rect(ListedSongSix8X, ListedSongSix8Y, ListedSongSix8Width, ListedSongSix8Height);
