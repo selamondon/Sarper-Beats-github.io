@@ -1,4 +1,4 @@
-// DIVS
+
 /* Steps for Scaffolding a Program while learning code
  rect(nameX, nameY, nameWidth, nameHeight);
  Copy, Paste & Rename
@@ -50,6 +50,48 @@ float ListedSongSix8Y = appHeight * 55 / paperHeight;
 float ListedSongSix8Width = appWidth * 24 / paperWidth;
 float ListedSongSix8Height = appHeight * 10 / paperHeight;
 float PlaylistSection15X = appWidth * 0 / paperWidth;
+float PlaylistSection15Y = appHeight * 79 / paperHeight;
+float PlaylistSection15Width = appWidth * 168 / paperWidth;
+float PlaylistSection15Height = appHeight * 45 / paperHeight;
+float PlaylistSectionName16X = appWidth * 65 / paperWidth;
+float PlaylistSectionName16Y = appHeight * 80 / paperHeight;
+float PlaylistSectionName16Width = appWidth * 34 / paperWidth;
+float PlaylistSectionName16Height = appHeight * 7 / paperHeight;
+float HideShowPlaylists17X = appWidth * 126 / paperWidth;
+float HideShowPlaylists17Y = appHeight * 74 / paperHeight;
+float HideShowPlaylists17Width = appWidth * 29 /paperWidth;
+float HideShowPlaylists17Height = appHeight * 3 /paperHeight;
+float SongDisplayWindow18X = appWidth * 47 /paperWidth;
+float SongDisplayWindow18Y = appHeight * 21 /paperHeight;
+float SongDisplayWindow18Width = appWidth * 60 / paperWidth;
+float SongDisplayWindow18Height = appHeight * 53 /paperHeight;
+float ArtistIcon19X = appWidth *  60 /paperWidth;
+float ArtistIcon19Y = appHeight * 21 /paperHeight;
+float ArtistIcon19Width = appWidth * 35 /paperWidth;
+float ArtistIcon19Height = appHeight * 31 /paperHeight;
+float ArtistName20X = appWidth * 48 /paperWidth;
+float ArtistName20Y = appHeight * 53 /paperHeight;
+float ArtistName20Width = appWidth * 12 /paperWidth;
+float ArtistName20Height = appHeight * 5 /paperHeight;
+float SongName21X = appWidth * 70 /paperWidth;
+float SongName21Y = appHeight * 53 /paperHeight;
+float SongName21Width = appWidth * 22 /paperWidth;
+float SongName21Height = appHeight * 3 /paperHeight;
+float BeginTimeline22X = appWidth * 50 /paperWidth;
+float BeginTimeline22Y = appHeight * 63 /paperHeight;
+float BeginTimeline22Width = appWidth * 5 /paperWidth;
+float BeginTimeline22Height = appHeight * 2 /paperHeight;
+float EndTimeline24X = appWidth * 95 /paperWidth;
+float EndTimeline24Y = appHeight * 63 /paperHeight;
+float EndTimeline24Width = appWidth * 5 /paperWidth;
+float EndTimeline24Height = appHeight * 2 /paperHeight;
+float LyricsBox25X = appWidth * 110 /paperWidth;
+float LyricsBox25Y = appHeight * 29 /paperHeight;
+float LyricsBox25Width = appWidth * 60 /paperWidth;
+float LyricsBox25Height = appHeight * 40 /paperHeight;
+float PlayButton35X = appWidth * 77 /paperWidth;
+float PlayButton
+
 //
 rect(ShuffleBox1X, ShuffleBox1Y, ShuffleBox1Width, ShuffleBox1Height);
 rect(SongListText2X, SongListText2Y, SongListText2Width, SongListText2Height);
@@ -59,3 +101,13 @@ rect(ListedSongThree5X, ListedSongThree5Y, ListedSongThree5Width, ListedSongThre
 rect(ListedSongFour6X, ListedSongFour6Y, ListedSongFour6Width, ListedSongFour6Height);
 rect(ListedSongFive7X, ListedSongFive7Y, ListedSongFive7Width, ListedSongFive7Height);
 rect(ListedSongSix8X, ListedSongSix8Y, ListedSongSix8Width, ListedSongSix8Height);
+rect(PlaylistSection15X, PlaylistSection15Y, PlaylistSection15Width, PlaylistSection15Height);
+rect(PlaylistSectionName16X, PlaylistSectionName16Y, PlaylistSectionName16Width, PlaylistSectionName16Height);
+rect(HideShowPlaylists17X, HideShowPlaylists17Y, HideShowPlaylists17Width, HideShowPlaylists17Height);
+rect(SongDisplayWindow18X, SongDisplayWindow18Y, SongDisplayWindow18Width, SongDisplayWindow18Height);
+rect(ArtistIcon19X, ArtistIcon19Y, ArtistIcon19Width, ArtistIcon19Height);
+rect(ArtistName20X, ArtistName20Y, ArtistName20Width, ArtistName20Height);
+rect(SongName21X, SongName21Y, SongName21Width, SongName21Height);
+rect(BeginTimeline22X, BeginTimeline22Y, BeginTimeline22Width, BeginTimeline22Height);
+rect(EndTimeline24X, EndTimeline24Y, EndTimeline24Width, EndTimeline24Height);
+rect(LyricsBox25X, LyricsBox25Y, LyricsBox25Width, LyricsBox25Height);
