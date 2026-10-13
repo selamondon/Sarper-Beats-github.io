@@ -90,9 +90,33 @@ float LyricsBox25Y = appHeight * 29 /paperHeight;
 float LyricsBox25Width = appWidth * 60 /paperWidth;
 float LyricsBox25Height = appHeight * 40 /paperHeight;
 float PlayButton35X = appWidth * 77 /paperWidth;
-float PlayButton
+float PlayButton35Y = appHeight * 0 /paperHeight;
+float PlayButton35Width = appWidth * 10 /paperWidth;
+float PlayButton35Height = appHeight * 14 /paperHeight;
+float PauseButton34X = appWidth * 67 /paperWidth;
+float PauseButton34Y = appHeight * 0 /paperHeight;
+float PauseButton34Width = appWidth * 10 /paperWidth;
+float PauseButton34Height = appHeight * 14 /paperHeight;
+float NextButton33X = appWidth * 57 /paperWidth;
+float NextButton33Y = appHeight * 0 /paperHeight;
+float NextButton33Width = appWidth * 10 /paperWidth;
+float NextButton33Height = appHeight * 14 /paperHeight;
+float NextButton36X = appWidth * 87 /paperWidth;
+float NextButton36Y = appHeight * 0 /paperHeight;
+float NextButton36Width = appWidth * 10 /paperWidth;
+float NextButton36Height = appHeight * 14 /paperHeight;
+float RewindButton32X = appWidth * 47 /paperWidth;
+float RewindButton32Y = appHeight * 0 /paperHeight;
+float RewindButton32Width = appWidth *  10 /paperWidth;
+float RewindButton32Height = appHeight * 14 /paperHeight;
+float FastForwardButton37X = appWidth * 104 /paperWidth;
+float FastForwardButton37Y = appHeight * 0 /paperHeight;
+float FastForwardButton37Width = appWidth * 10 /paperWidth;
+float FastForwardButton37Height = appHeight * 14 /paperHeight
+float MenuBox44X = appWidth * 140 /paperWidth;
+float MenuBox44
 
-//
+// 
 rect(ShuffleBox1X, ShuffleBox1Y, ShuffleBox1Width, ShuffleBox1Height);
 rect(SongListText2X, SongListText2Y, SongListText2Width, SongListText2Height);
 rect(ListedSongOne3X, ListedSongOne3Y, ListedSongOne3Width, ListedSongOne3Height);
@@ -111,3 +135,9 @@ rect(SongName21X, SongName21Y, SongName21Width, SongName21Height);
 rect(BeginTimeline22X, BeginTimeline22Y, BeginTimeline22Width, BeginTimeline22Height);
 rect(EndTimeline24X, EndTimeline24Y, EndTimeline24Width, EndTimeline24Height);
 rect(LyricsBox25X, LyricsBox25Y, LyricsBox25Width, LyricsBox25Height);
+rect(PlayButton35X, PlayButton35Y, PlayButton35Width, PlayButton35Height);
+rect(PauseButton34X, PauseButton34Y, PauseButton34Width, PauseButton34Height);
+rect(NextButton33X, NextButton33Y, NextButton33Width, NextButton33Height);
+rect(NextButton36X, NextButton36Y, NextButton36Width, NextButton36Height);
+rect(RewindButton32X, RewindButton32Y, RewindButton32Width, RewindButton32Height);
+rect(FastForwardButton37X, FastForwardButton37Y, FastForwardButton37Width, FastForwardButton37Height);
