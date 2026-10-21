@@ -9,14 +9,24 @@ int appWidth = displayWidth;
 int appHeight = displayHeight;
 
 // Paper dimensions
-int paperWidth = 165;
-int paperHeight = 122;
+int paperWidth = 265;
+int paperHeight = 222;
 //
 fullScreen();
 print(displayWidth, displayHeight);
 
+// Center the entire rectangle layout
+translate(
+  (appWidth - appWidth * 168 / paperWidth) / 2,
+  (appHeight - appHeight * 124 / paperHeight) / 2
+);
+
 
 // Image variables
+float MusicPlayerBoxX = appWidth * 0 /paperWidth;
+float MusicPlayerBoxY = appHeight * 0 /paperHeight;
+float MusicPlayerBoxWidth = appWidth * 164 /paperWidth;
+float MusicPlayerBoxHeight = appHeight * 122 /paperHeight;
 float ShuffleBox1X = appWidth * 23 / paperWidth;
 float ShuffleBox1Y = appHeight * 0 / paperHeight;
 float ShuffleBox1Width = appWidth * 15 / paperWidth;
@@ -112,11 +122,44 @@ float RewindButton32Height = appHeight * 14 /paperHeight;
 float FastForwardButton37X = appWidth * 104 /paperWidth;
 float FastForwardButton37Y = appHeight * 0 /paperHeight;
 float FastForwardButton37Width = appWidth * 10 /paperWidth;
-float FastForwardButton37Height = appHeight * 14 /paperHeight
+float FastForwardButton37Height = appHeight * 14 /paperHeight;
 float MenuBox44X = appWidth * 140 /paperWidth;
-float MenuBox44
+float MenuBox44Y = appHeight * 0 /paperHeight;
+float MenuBox44Width = appWidth * 27 /paperWidth;
+float MenuBox44Height = appHeight * 33 /paperHeight;
+float DarkModeButton45X = appWidth * 141 /paperWidth;
+float DarkModeButton45Y = appHeight * 10 /paperHeight;
+float DarkModeButton45Width = appWidth * 14 /paperWidth;
+float DarkModeButton45Height = appHeight * 5 /paperHeight;
+float LightModeButton46X = appWidth * 141 /paperWidth;
+float LightModeButton46Y = appHeight * 14 /paperHeight;
+float LightModeButton46Width = appWidth * 14 /paperWidth;
+float LightModeButton46Height = appHeight * 5 /paperHeight;
+float LanguageSelect47X = appWidth * 141 /paperWidth;
+float LanguageSelect47Y = appHeight * 20 /paperHeight;
+float LanguageSelect47Width = appWidth * 14 /paperWidth;
+float LanguageSelect47Height = appHeight * 5 /paperHeight;
+float VolumeDownBox38X = appWidth * 32 /paperWidth;
+float VolumeDownBox38Y = appHeight * -7 /paperHeight;
+float VolumeDownBox38Width = appWidth * 19 /paperWidth;
+float VolumeDownBox38Height = appHeight * 7 /paperHeight;
+float VolumeUpBox39X = appWidth * 51 /paperWidth;
+float VolumeUpBox39Y = appHeight * -7 /paperHeight;
+float VolumeUpBox39Width = appWidth * 19 /paperWidth;
+float VolumeUpBox39Height = appHeight * 7 /paperHeight;
+float VolumeDownText41X = appWidth * 35 /paperWidth;
+float VolumeDownText41Y = appHeight * -5 /paperHeight;
+float VolumeDownText41Width = appWidth * 14 /paperWidth;
+float VolumeDownText41Height = appHeight * 3 /paperHeight;
+float VolumeUpText42X = appWidth * 52 /paperWidth;
+float VolumeUpText42Y = appHeight * -5 /paperHeight;
+float VolumeUpText42Width = appWidth * 14 /paperWidth;
+float VolumeUpText42Height = appHeight * 3 /paperHeight;
+
+
 
 // 
+rect(MusicPlayerBoxX, MusicPlayerBoxY, MusicPlayerBoxWidth, MusicPlayerBoxHeight);
 rect(ShuffleBox1X, ShuffleBox1Y, ShuffleBox1Width, ShuffleBox1Height);
 rect(SongListText2X, SongListText2Y, SongListText2Width, SongListText2Height);
 rect(ListedSongOne3X, ListedSongOne3Y, ListedSongOne3Width, ListedSongOne3Height);
@@ -141,3 +184,11 @@ rect(NextButton33X, NextButton33Y, NextButton33Width, NextButton33Height);
 rect(NextButton36X, NextButton36Y, NextButton36Width, NextButton36Height);
 rect(RewindButton32X, RewindButton32Y, RewindButton32Width, RewindButton32Height);
 rect(FastForwardButton37X, FastForwardButton37Y, FastForwardButton37Width, FastForwardButton37Height);
+rect(MenuBox44X, MenuBox44Y, MenuBox44Width, MenuBox44Height);
+rect(DarkModeButton45X, DarkModeButton45Y, DarkModeButton45Width, DarkModeButton45Height);
+rect(LightModeButton46X, LightModeButton46Y, LightModeButton46Width, LightModeButton46Height);
+rect(LanguageSelect47X, LanguageSelect47Y, LanguageSelect47Width, LanguageSelect47Height);
+rect(VolumeDownBox38X, VolumeDownBox38Y, VolumeDownBox38Width, VolumeDownBox38Height);
+rect(VolumeUpBox39X, VolumeUpBox39Y, VolumeUpBox39Width, VolumeUpBox39Height);
+rect(VolumeDownText41X, VolumeDownText41Y, VolumeDownText41Width, VolumeDownText41Height);
+rect(VolumeUpText42X, VolumeUpText42Y, VolumeUpText42Width, VolumeUpText42Height);
