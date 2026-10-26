@@ -22,6 +22,25 @@ translate(
 );
 
 
+stroke(0);
+noFill();
+
+int numberOfButtons = 6;
+int widthOfButton = appWidth/numberOfButtons;
+int beginningButtonSpace = widthOfButton;
+int buttonY = appHeight*3/5;
+
+float musicButtonDivDimension = widthOfButton;
+float musicButtonDivY = buttonY;
+
+
+
+
+
+
+
+
+
 // Image variables
 float MusicPlayerBoxX = appWidth * 0 /paperWidth;
 float MusicPlayerBoxY = appHeight * 0 /paperHeight;
@@ -61,14 +80,14 @@ float ListedSongSix8Width = appWidth * 24 / paperWidth;
 float ListedSongSix8Height = appHeight * 10 / paperHeight;
 float PlaylistSection15X = appWidth * 0 / paperWidth;
 float PlaylistSection15Y = appHeight * 79 / paperHeight;
-float PlaylistSection15Width = appWidth * 168 / paperWidth;
+float PlaylistSection15Width = appWidth * 164 / paperWidth;
 float PlaylistSection15Height = appHeight * 45 / paperHeight;
 float PlaylistSectionName16X = appWidth * 65 / paperWidth;
 float PlaylistSectionName16Y = appHeight * 80 / paperHeight;
 float PlaylistSectionName16Width = appWidth * 34 / paperWidth;
 float PlaylistSectionName16Height = appHeight * 7 / paperHeight;
 float HideShowPlaylists17X = appWidth * 126 / paperWidth;
-float HideShowPlaylists17Y = appHeight * 74 / paperHeight;
+float HideShowPlaylists17Y = appHeight * 76 / paperHeight;
 float HideShowPlaylists17Width = appWidth * 29 /paperWidth;
 float HideShowPlaylists17Height = appHeight * 3 /paperHeight;
 float SongDisplayWindow18X = appWidth * 47 /paperWidth;
@@ -95,9 +114,9 @@ float EndTimeline24X = appWidth * 95 /paperWidth;
 float EndTimeline24Y = appHeight * 63 /paperHeight;
 float EndTimeline24Width = appWidth * 5 /paperWidth;
 float EndTimeline24Height = appHeight * 2 /paperHeight;
-float LyricsBox25X = appWidth * 110 /paperWidth;
-float LyricsBox25Y = appHeight * 29 /paperHeight;
-float LyricsBox25Width = appWidth * 60 /paperWidth;
+float LyricsBox25X = appWidth * 107 /paperWidth;
+float LyricsBox25Y = appHeight * 33 /paperHeight;
+float LyricsBox25Width = appWidth * 57 /paperWidth;
 float LyricsBox25Height = appHeight * 40 /paperHeight;
 float PlayButton35X = appWidth * 77 /paperWidth;
 float PlayButton35Y = appHeight * 0 /paperHeight;
@@ -123,7 +142,7 @@ float FastForwardButton37X = appWidth * 104 /paperWidth;
 float FastForwardButton37Y = appHeight * 0 /paperHeight;
 float FastForwardButton37Width = appWidth * 10 /paperWidth;
 float FastForwardButton37Height = appHeight * 14 /paperHeight;
-float MenuBox44X = appWidth * 140 /paperWidth;
+float MenuBox44X = appWidth * 137 /paperWidth;
 float MenuBox44Y = appHeight * 0 /paperHeight;
 float MenuBox44Width = appWidth * 27 /paperWidth;
 float MenuBox44Height = appHeight * 33 /paperHeight;
@@ -158,7 +177,42 @@ float VolumeUpText42Height = appHeight * 3 /paperHeight;
 
 
 
+// Play triangle inside PlayButton35
+float playX1 = PlayButton35X + PlayButton35Width * 2/8;
+float playY1 = PlayButton35Y + PlayButton35Height * 2/8;
+
+float playX2 = PlayButton35X + PlayButton35Width * 6/8;
+float playY2 = PlayButton35Y + PlayButton35Height * 4/8;
+
+float playX3 = PlayButton35X + PlayButton35Width * 2/8;
+float playY3 = PlayButton35Y + PlayButton35Height * 6/8;
+
+// Pause symbol inside PauseButton34
+float pauseX1 = PauseButton34X + PauseButton34Width * 2/8;
+float pauseY1 = PauseButton34Y + PauseButton34Height * 2/8;
+
+float pauseX5 = PauseButton34X + PauseButton34Width * 4/8;
+float pauseY5 = PauseButton34Y + PauseButton34Height * 2/8;
+
+// Fast-Forward symbol inside FastForwardButton37
+
+
+
+
+
+
+
+
+
 // 
+
+rect(pauseX1, pauseY1,
+    PauseButton34Width * 1/8,
+    PauseButton34Height * 4/8);
+rect(pauseX5, pauseY5,
+    PauseButton34Width * 1/8,
+    PauseButton34Height * 4/8);
+triangle(playX1, playY1, playX2, playY2, playX3, playY3);
 rect(MusicPlayerBoxX, MusicPlayerBoxY, MusicPlayerBoxWidth, MusicPlayerBoxHeight);
 rect(ShuffleBox1X, ShuffleBox1Y, ShuffleBox1Width, ShuffleBox1Height);
 rect(SongListText2X, SongListText2Y, SongListText2Width, SongListText2Height);
